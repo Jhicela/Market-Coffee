@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es-CO" class="h-100"> <!--class="h-100"-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MCO</title>
+  <meta name="theme-color" content="#ff2e01">
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandhledFriendly" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar" content="black-traslucent">
+
+  <!--Tags SEO-->
+  <meta name="author" content="Miproyecto">
+  <meta name="description" content="Aplicativo para enseñanza de Bootstrap">
+  <meta name="keyworks" content="SENA, sena, Sena, Web App, web app, WEB APP">
+
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="media/logo_café.webp">
+  <link rel="apple-touch-icon" type="image/png" href="media/logo5.jpeg">
+  <link rel="apple-touch-startup-image" type="image/png" href="media/logo5.jpeg">
+
+  <!--Styles Bootstrap 5.3.1 Alpha-->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <script type="text/javascript" Content-Encoding: gzip src="assets/js/bootstrap.bundle.js"></script>
+
+  <style>
+    .img-home{
+    height: 500px;
+    object-fit: cover;
+}
+  </style>
+</head>
+<style>
+
+</style>
+<html>
+<nav class="navbar navbar-expand-sm bg-light navbar-black fixed-top">
+  <div class="container-fluid">
+    <img src="media/logo5.jpeg" class="rounded-circle" style="width:50px;" alt="Cinque Terre">
+    <p class="h5">MCO</p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-label="menu"
+      data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="app/">Inicio sesión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="app/registro.php">Registrate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="app/recetas.html">Recetas </a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Background image-->
+<div id="intro" class="bg-image shadow-2-strong mt-5 pt-5">
+  <div>
+    <video loop="loop"  autoplay muted playsinline style="width: 100%; margin-top:-20px; height: 90vh;  object-fit: fill;">
+      <source src="media/video.mp4">
+    </video>
+  </div>
+  <div class="mask" style="margin-top: -90vh; height: 90vh;">
+    <div class="container d-flex align-items-center justify-content-center text-center h-100">
+      <div class="text-light">
+        <h1 class="mb-3 ">Bienvenido a MCO</h1>
+        <h1 class="mb-4 ">¡Un café de Abejorral para toda Colombia!</h1>
+          <a target="_blank" class="btn btn-outline-dark text-light btn-lg m-2" style="position:relative;
+          z-index:1000;     background-color: var(--bs-btn-active-bg);" aria-label="boton registrarse" href="https://maps.app.goo.gl/sLwALBZkSRybryP47"
+          role="button">¿Dónde tomarme un café de origen?</a>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Section: Content-->
+
+<hr class="my-5" />
+
+
+<!-- Galeria -->
+<div class="container py-1">
+  <section class="text-center">
+    <h2 class="mb-5">Marcas</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <a target="_blank" href="https://celimocafe.co/">
+          <img src="media/primera_cosecha.jpg" class="w-100 img-home shadow-1-strong rounded mb-4" alt="Boat on Calm Water" /></a>
+
+        <a target="_blank" href="https://reservadelamontanacafe.principalwebsite.com/">
+          <img src="media/reserva_250.jpeg" src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+            class="w-100 img-home shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" /></a>
+
+
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <a target="_blank" href="https://instagram.com/cafeandresduque?igshid=NTc4MTIwNjQ2YQ==">
+          <img src="media/andres-500.jpg" class="w-100 img-home shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape" /></a>
+        <a target="_blank" href="https://www.instagram.com/cafemariacamila201/?hl=es">
+          <img src="media/camila.jpg" class="w-100 img-home shadow-1-strong rounded mb-4" alt="Boat on Calm Water" /></a>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <a target="_blank" href="https://instagram.com/cafefincaaltamira?igshid=YTQwZjQ0NmI0OA==">
+          <img src="media/altamira-marcas.jpg" class="w-100 img-home shadow-1-strong rounded mb-4" alt="Waves at Sea" /></a>
+
+
+      </div>
+    </div>
+    <!-- Gallery -->
+    <hr class="my-5" />
+
+    <!--Section: Content-->
+    <section class="text-center">
+      <h2 class="mb-5">Recetas</h2>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="media/capuchino.jpg" class="img-fluid" alt="Foto de capuchino" />
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Capuchino</h2>
+              <p class="text-truncate">
+
+                Ingredientes:
+
+                Café (espresso)
+                Leche
+
+                Pasos a seguir:
+
+                1 paso
+
+                Preparar el café espresso
+
+                2 paso
+
+                Hervir la leche con el espumador de la maquina espresso y generar 50% de espuma
+
+                3 paso
+
+                En la taza del café espresso preparado previamente vertemos la leche de forma que primero caiga la parte
+                líquida y al último la espuma
+
+                Paso 4
+
+                Opcionalmente puedes decorarlo con un poco de esencia de vainilla, licor, jarabe de chocolate o
+                cualquier cosa que te guste
+              </p>
+              <a href="app/recetas.html" class="btn btn-primary" aria-label="boton registrarse">Conoce más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="media/frappe.jpg" class="img-fluid" alt="Foto de Frappe de café" />
+              <a href="app/recetas.html" aria-label="boton registrarse">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Frappé de café </h2>
+              <p class="text-truncate">
+                Ingredientes:
+
+                Café (espresso)
+                Cubitos de hielo
+                Helado
+                Leche condensada
+                Leche
+                Chantilly (opcional )
+
+                Preparación:
+
+                Agregar todos los ingredientes a la licuadora menos la crema batida, mezclar todo hasta lograr una
+                consistencia homogénea y cremosa, servir y decorar con crema chantilly es opcional
+              </p>
+              <a href="app/recetas.html" class="btn btn-primary" aria-label="boton registrarse">Conoce más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="media/bombón.jpg" class="img-fluid" alt="Foto de café bombón">
+              <a href="app/recetas.html" aria-label="boton registrarse">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Café bombón</h2>
+              <p class="text-truncate">
+                Ingredientes:
+
+                Café
+                Leche condensada
+                Crema batida (chantilly)
+                Salsa de chocolate (opcional)
+
+                Pasos a seguir:
+
+                En un vaso de cristal vierte la leche condensada al gusto.
+
+                Prepara un café espresso
+
+                Echa el café sobre la leche condensada, la diferencia de densidades hará que el café no se mezcle con la
+                leche condensada y se mantengan los dos colores separados.
+
+                Decora con chantilly y salsa de chocolate al gusto
+
+
+                Café Irlandés
+
+                Ingredientes:
+
+                Crema de whisky
+                1 doppio
+                Chantilly al gusto
+
+                Pasos a seguir :
+                Los mismos del café bombón
+              </p>
+              <a href="app/recetas.html" class="btn btn-primary" aria-label="boton registrarse">Conoce más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section: Content-->
+
+</div>
+</section><!-- End Gallery Section -->
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="section-title">
+      <h3 class="text-primary text-center" style="letter-spacing: 5px;">SOBRE MCO</h3>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 py-0 py-lg-5">
+        <h3 class="mb-3">Nuestra historia</h3>
+        <h3 class="mb-3"> (MCO)Market Coffee Online </h3>
+        <p>Nació de la idea de investigación de cinco jóvenes de la sede San Luis y Santiago Betancurt, pertenecientes a
+          la Media Técnica de Desarrollo de Sofware en la Institución Educativa Fundacion Celia Duque de Duque del
+          municipio de Abejorral, los cuales vieron la ausencia y falta de un aplicativo web dónde se pudiera ofrecer el
+          café abejorraleño. Al ver esta necesidad, pensaron ¿Cómo dar a conocer el café producido en el municipio de
+          Abejorral, su sabor y tradición cafetera?, Así decidieron diseñar (MCO) Market Coffee Online, un aplicativo
+          web que ofrece café producido y distribuido en dicho territorio.</p>
+      </div>
+      <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+        <div class="position-relative h-100">
+          <img class="position-absolute w-100 h-100" src="media/desarrolladores.jpg" style="object-fit: cover;"
+            alt="Foto desarrolladores">
+        </div>
+      </div>
+      <div class="col-lg-4 py-0 py-lg-5">
+        <h3 class="mb-3">Nuestra visión</h3>
+        <p>Dar a conocer el aplicativo y marcas de café que se procesan en el municipio de Abejorral fomentando así su
+          consumó y el conocimiento de las tradiciónes cafeteras. Además, de proporcionar una herramienta web para la
+          compra digital por parte del usuario.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About End -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span> Te invitamos a conocer mas sobre el delicioso cafe abejorraleño y sus derivados</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+    </div>
+
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h4 class="text-uppercase fw-bold mb-4">
+            <i></i>Market Coffee Online
+          </h4>
+          <p>
+            Una herramienta que ayuda a la comercializaciòn del cafe procesadon en el municipio de AbejorralS
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h4 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h4>
+          <p>
+            <a href="https://celimocafe.co/" class="text-reset">Celimo</a>
+          </p>
+          <p>
+            <a href="https://cafeandresduque.com/" class="text-reset">Andres Duque</a>
+          </p>
+          <p>
+            <a href="https://reservadelamontanacafe.principalwebsite.com/" class="text-reset">Reserva de la montaña </a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/cafemariacamila201/?hl=es" class="text-reset">Maria Camila </a>
+          </p>
+          <p>
+            <a href="https://instagram.com/cafefincaaltamira?igshid=YTQwZjQ0NmI0OA==" class="text-reset">Altamira </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h4 class="text-uppercase fw-bold mb-4">
+            Recetas
+          </h4>
+          <p>
+            <a href="app/recetas.html" class="text-reset">Recetas</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- contactos -->
+          <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
+          <p><i class="fas fa-home me-3"></i> <a href="https://www.google.com/maps?q=DIRECCION">Abejorral/Antioquia</a>
+          </p>
+          <p><i class="fas fa-envelope me-3"></i> <a
+              href="mailto:mcoabejorral@gmail.com">mcoabejorral@gmail.com</a></p>
+          <p><i class="fas fa-phone me-3"></i> <a href="https://api.whatsapp.com/send?phone=3146169422&text"> 3146169422
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+</footer>
+<!-- Footer -->
+</div>
+</body>
+
+</html>
